@@ -45,13 +45,13 @@ a img {
 
 .site-title-box {
   float: left;
-  margin: 41px 0 0 23px;
+  margin: 34px 0 0 23px;
 }
 
 .site-title-box__text {
   font-size: 22px;
   line-height: 26px;
-  color: #666666;
+  color: #333;
   display: inline-block;
   letter-spacing: -0.4px;
   margin: 0;
@@ -166,7 +166,7 @@ a img {
 }
 
 .api-info-section {
-  background-color: #31b8cd;
+  background-color: #776977;
 }
 
 .info-box {
@@ -194,7 +194,7 @@ a img {
   color: #fff;
   line-height: 29px;
   margin: 0 0 0 0;
-  padding: 5px 0 8px 0;
+  padding: 5px 0 16px 0;
   letter-spacing: 0.5px;
 }
 
@@ -228,23 +228,22 @@ a img {
 
 .option-box {
   float: left;
-  background-color: #39b54a;
   width: 17%;
-  padding: 8px 8px 38px 8px;
-  margin: 39px 8px 38px 8px;
+  padding: 8px 8px 20px 8px;
+  margin: 20px 8px 20px 8px;
   position: relative;
 }
 .option-box:first-child {
-  margin: 39px 8px 38px 2px;
+  margin: 20px 8px 20px 2px;
 }
 .option-box:last-child {
-  margin: 39px 2px 38px 11px;
+  margin: 20px 2px 20px 11px;
 }
 
 .option-box__headline {
   margin: 0;
   padding: 1px 0 6px 2px;
-  color: #fff;
+  color: #333;
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
@@ -269,21 +268,8 @@ a img {
 }
 
 .option-box__select {
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  color: #fff;
-  border: 0;
   width: 100%;
   height: 38px;
-  font-size: 14px;
-  overflow: hidden;
-  background: url(../images/select-arrow.png) no-repeat right 12px top 16px;
-  background-color: #333333;
-  padding: 0 0 3px 9px;
 }
 
 .option-box__option {
@@ -323,7 +309,7 @@ a img {
   margin: 0 0 26px 0;
   font-size: 29px;
   line-height: 33px;
-  color: #24bc65;
+  color: #09c;
   font-weight: 400;
   padding: 17px 0 0 0;
   letter-spacing: 0.8px;
@@ -359,7 +345,8 @@ a img {
   width: 720px;
   position: relative;
   color: #504854;
-  font-size: 8px;
+  font-size: 10px;
+  margin-top: 10px;
 }
 
 
@@ -372,9 +359,6 @@ a img {
   text-decoration: none;
 }
 
-
-
-
 /* This is the list of Api calls on the left panel */
 .api_list {
     position: fixed;
@@ -382,34 +366,37 @@ a img {
     z-index: 10;
     overflow: scroll;
     width: 250px;
-    height: 750px;
-    background-color: white;
+    height: 100%;
+    background-color: #0099cc;
 }
 
 
 .api_list_item {
-  margin: 0 0 0px 0;
-  font-size: 8px;
-  color: #24bc65;
+  margin: 0;
+  font-size: 14px;
+  color: #eaf8fa;
   font-weight: 400;
-  padding: 0px 0 0 0;
-  letter-spacing: 0.8px;
+  padding: 0;
 }
 
+.api_list_item_link {
+  color: #333;
+}
 
 .default-input {
   margin: 2px 0 0 2px;
-  padding: 13px 108px 9px 20px;
+  padding: 13px 108px 16px 20px;
   width: 570px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   border: 0;
   background-color: #f2f2f2;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
   color: #504854;
   float: left;
+  font-family: monospace;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -421,13 +408,13 @@ a img {
   font-size: 18px;
   line-height: 18px;
   text-transform: uppercase;
-  background-color: #50b165;
+  background-color: #09c;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
   color: #fff;
   width: 92px;
-  padding: 4px 0 4px 0;
+  padding: 8px 4px 8px 4px;
   position: absolute;
   top: 11px;
   right: 32px;
